@@ -1,0 +1,21 @@
+uuid: 56a8ae59-a9cf-4ff2-9a33-5b5c0b65538b
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.rice
+    - field.storage.commerce_product_variation.field_d
+  module:
+    - text
+id: commerce_product_variation.rice.field_d
+field_name: field_d
+entity_type: commerce_product_variation
+bundle: rice
+label: 'Discount Percentage'
+description: 'Enter the Discount Percentage i.e 10%OFF'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

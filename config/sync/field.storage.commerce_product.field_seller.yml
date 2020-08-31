@@ -1,0 +1,20 @@
+uuid: d3feedb5-54e0-4e9e-a052-f26b56e5a7a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - text
+id: commerce_product.field_seller
+field_name: field_seller
+entity_type: commerce_product
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

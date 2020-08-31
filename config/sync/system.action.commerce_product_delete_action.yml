@@ -1,0 +1,17 @@
+uuid: 4bd31ee1-4396-4972-9138-4d09dd0f6b7d
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_product
+  module:
+    - commerce_product
+    - entity
+_core:
+  default_config_hash: wlvmNEgXVD81RVgOeQJVgSdT5t0RAwWJVyIXdLIONdg
+id: commerce_product_delete_action
+label: 'Delete product'
+type: commerce_product
+plugin: 'entity_delete_action:commerce_product'
+configuration: {  }

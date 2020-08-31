@@ -1,0 +1,87 @@
+uuid: 25e607ce-87e2-48fa-9ab6-f09530fce63d
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.rice
+    - field.field.commerce_product_variation.rice.attribute_available_in
+    - field.field.commerce_product_variation.rice.field_d
+    - field.field.commerce_product_variation.rice.field_image
+    - field.field.commerce_product_variation.rice.field_old_price
+    - image.style.thumbnail
+  module:
+    - commerce_price
+    - field_layout
+    - image
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: commerce_product_variation.rice.default
+targetEntityType: commerce_product_variation
+bundle: rice
+mode: default
+content:
+  attribute_available_in:
+    type: options_select
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_d:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_image:
+    weight: 7
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_old_price:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: commerce_price_default
+    region: content
+  langcode:
+    type: language_select
+    weight: 4
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  price:
+    type: commerce_price_default
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  sku:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  list_price: true
+  uid: true

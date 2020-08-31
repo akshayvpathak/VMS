@@ -1,0 +1,22 @@
+uuid: bed2eafb-f982-41a4-a66f-f0a64d1b4ee3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vmsit
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: vmsit_content
+theme: vmsit
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

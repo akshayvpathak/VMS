@@ -1,0 +1,12 @@
+uuid: 93495b1b-0c04-4697-a38a-d95ce23c8877
+langcode: en
+status: true
+dependencies: {  }
+id: rice
+label: Rice
+description: "This is the Product Type.\r\n"
+variationType: rice
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

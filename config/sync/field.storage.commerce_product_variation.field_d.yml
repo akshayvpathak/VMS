@@ -1,0 +1,20 @@
+uuid: 231b504c-c341-493c-8a75-557f23b18619
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - text
+id: commerce_product_variation.field_d
+field_name: field_d
+entity_type: commerce_product_variation
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

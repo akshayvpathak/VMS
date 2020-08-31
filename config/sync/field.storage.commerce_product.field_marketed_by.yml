@@ -1,0 +1,20 @@
+uuid: 674fbd61-80fc-407f-9e32-818fb882090e
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - text
+id: commerce_product.field_marketed_by
+field_name: field_marketed_by
+entity_type: commerce_product
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

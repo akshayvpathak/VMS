@@ -1,0 +1,11 @@
+uuid: 6813fa8e-7358-4bac-abcd-d430d24a4a9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.rice
+id: commerce_product.rice
+target_entity_type_id: commerce_product
+target_bundle: rice
+default_langcode: site_default
+language_alterable: false

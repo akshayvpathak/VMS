@@ -1,0 +1,23 @@
+uuid: 017c8e9a-a444-4af5-8abf-bec427001bcf
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - vmsit
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: vmsit_search
+theme: vmsit
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }
